@@ -1,4 +1,5 @@
 import mongoose  from "../db";
+import { commentSchema } from "./comment";
 
 const blogSchema = new mongoose.Schema({
   user_id: {
@@ -18,7 +19,7 @@ const blogSchema = new mongoose.Schema({
     required: true
   },
   comments: {
-    type: Array
+    type: [commentSchema]
   },
   likes: {
     type: [String]

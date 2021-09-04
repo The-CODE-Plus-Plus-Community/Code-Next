@@ -1,0 +1,22 @@
+[
+  {
+      "_id": "61336b996052fccda99c7018",
+      "title": "title",
+      "imgUrl": "imageUrl",
+      "content": "lorem ipsum",
+      "likes": [],
+      "comments": [],
+      "user": "61336a406052fccda99c7015",
+      "__v": 0
+  },
+  {
+      "_id": "61336c8c41ff67ee5c3ea86d",
+      "title": "title",
+      "imgUrl": "imageUrl",
+      "content": "lorem ipsum",
+      "likes": [],
+      "comments": [],
+      "user": "61336a406052fccda99c7015",
+      "__v": 0
+  }
+]

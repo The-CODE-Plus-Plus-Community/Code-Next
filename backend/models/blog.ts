@@ -1,11 +1,8 @@
+import { Schema } from "mongoose";
 import mongoose  from "../db";
 import { commentSchema } from "./comment";
 
 const blogSchema = new mongoose.Schema({
-  user_id: {
-    type: String,
-    required: true
-  },
   title: {
     type: String,
     required: true
@@ -23,6 +20,10 @@ const blogSchema = new mongoose.Schema({
   },
   likes: {
     type: [String]
+  },
+  user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
   }
 });
 

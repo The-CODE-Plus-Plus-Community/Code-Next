@@ -1,22 +1,75 @@
 [
   {
-      "_id": "61336b996052fccda99c7018",
-      "title": "title",
-      "imgUrl": "imageUrl",
-      "content": "lorem ipsum",
-      "likes": [],
-      "comments": [],
-      "user": "61336a406052fccda99c7015",
-      "__v": 0
-  },
-  {
-      "_id": "61336c8c41ff67ee5c3ea86d",
-      "title": "title",
-      "imgUrl": "imageUrl",
-      "content": "lorem ipsum",
-      "likes": [],
-      "comments": [],
-      "user": "61336a406052fccda99c7015",
-      "__v": 0
+    "id": "392u58hskfnasassjknwr",
+    "name": "name",
+    "email": "email@email.com",
+    "password": "password",
+    "tags": ["react", "next", "cp"],
+    "bookmarks": ["blog_1", "blog_2", "blog_3"],
+    "drafts": [
+      {
+        "id": "naskjansogha9qkir1",
+        "user_id": "392u58hskfnasassjknwr",
+        "username": "name",
+        "cover_photo": "https://images.unsplash.com/photo-1633107390463-bae1819e4ff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "i am title",
+        "subtitle": "i am sub-title",
+        "story": "lorem ipsum story"
+      }
+    ],
+    "blogs": [
+      {
+        "id": "eqyeheadhaedhae",
+        "user_id": "392u58hskfnasassjknwr",
+        "username": "name",
+        "cover_photo": "https://images.unsplash.com/photo-1633107390463-bae1819e4ff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "i am title",
+        "subtitle": "i am sub-title",
+        "story": "lorem ipsum story"
+      },
+      {
+        "id": "wq553yesjfhdsgdag",
+        "user_id": "392u58hskfnasassjknwr",
+        "username": "name",
+        "cover_photo": "https://images.unsplash.com/photo-1633107390463-bae1819e4ff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "i am title",
+        "subtitle": "i am sub-title",
+        "story": "lorem ipsum story"
+      },{
+        "id": "1251teshdbhdaedad",
+        "user_id": "392u58hskfnasassjknwr",
+        "username": "name",
+        "cover_photo": "https://images.unsplash.com/photo-1633107390463-bae1819e4ff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "i am title",
+        "subtitle": "i am sub-title",
+        "story": "lorem ipsum story"
+      },
+      {
+        "id": "jjxhvijjpqi4h1b4wenlr",
+        "user_id": "392u58hskfnasassjknwr",
+        "username": "name",
+        "cover_photo": "https://images.unsplash.com/photo-1633107390463-bae1819e4ff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "i am title",
+        "subtitle": "i am sub-title",
+        "story": "lorem ipsum story"
+      },{
+        "id": "353enlkghsahoiwqnkrwf",
+        "user_id": "392u58hskfnasassjknwr",
+        "username": "name",
+        "cover_photo": "https://images.unsplash.com/photo-1633107390463-bae1819e4ff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "title": "i am title",
+        "subtitle": "i am sub-title",
+        "story": "lorem ipsum story"
+      }
+    ],
+    "imgUrl": "https://images.unsplash.com/photo-1633115737748-d592f8a97957?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "username": "name@name",
+    "bio": "i am bio",
+    "followers": [],
+    "following": [],
+    "appreciations": [],
+    "tech_stack": ["mern", "mean", "mfrn", "lamp"],
+    "joined_at": "now",
+    "background_image": "https://images.unsplash.com/photo-1633120059477-a05c57ed01d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
   }
 ]

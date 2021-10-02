@@ -1,8 +1,5 @@
 import "../styles/globals.css";
 
-export default function MyApp({
-  Component,
-  pageProps: { session, ...pageProps },
-}) {
+export default function MyApp({ Component, pageProps: { ...pageProps } }) {
   return <Component {...pageProps} />;
 }

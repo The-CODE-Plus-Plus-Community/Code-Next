@@ -19,11 +19,14 @@ export default function Home() {
         </Link>
       </h1>
       <button>Your drafts</button>
-      <button>Write an article</button>
+      <Link href="/write_article">Write an article</Link>
+      <h2>Trending Articles</h2>
       {data?.blogs?.map((blog) => (
         <Card key={blog.id}>
           <Image src={blog.cover_photo} width={200} height={200} alt="" />
-          <h3>{blog.title}</h3>
+          <Link href={`/blogs/${blog.id}`} passHref={true}>
+            <h3>{blog.title} - click me to watch full content</h3>
+          </Link>
           <p>{blog.subtitle}</p>
           <p>{blog.story}</p>
         </Card>

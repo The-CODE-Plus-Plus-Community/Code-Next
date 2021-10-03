@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import axios from "../../axios";
+import DUMMY_DATA from "../../assets/dummy_data.json";
+import Image from "next/image";
 
 function Blog() {
-  const router = useRouter();
-  const { id } = router.query;
-
-  const [blog, setBlog] = useState(null);
-  useEffect(() => {
-    async function getAllBlogs() {
-      try {
-        const res = await axios.get(`/blogs/${id}`);
-        console.log(res.data);
-        setBlog(res.data);
-      } catch (err) {
-        console.log(err);
-      }
-    }
-    getAllBlogs();
-  }, [id]);
-  return <div>{blog ? <p>{blog.description}</p> : <p>not found</p>}</div>;
+  const [blog, setBlog] = useState(DUMMY_DATA[0].blogs[0]);
+  return (
+    <div>
+      {blog ? (
+        <>
+          <Image src={blog.cover_photo} alt="" width={1900} height={600} />
+          <h1>{blog.title}</h1>
+          <h2>{blog.subtitle}</h2>
+          <p>by - {blog.username}</p>
+          <p>{blog.story}</p>
+          {/* can also provide tags! */}
+        </>
+      ) : (
+        <p>not found</p>
+      )}
+    </div>
+  );
 }
 
 export default Blog;
